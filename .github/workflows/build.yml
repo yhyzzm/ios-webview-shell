@@ -14,7 +14,7 @@ jobs:
       - name: Build Archive
         run: |
           xcodebuild \
-            -scheme wkwebview-demo \ # 先写模板默认 Scheme
+            -scheme wkwebview-demo \
             -configuration Release \
             -archivePath build/App.xcarchive \
             archive \
